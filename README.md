@@ -12,6 +12,45 @@ plain Python program.
 This is a personal assignment, please complete it **individually**. 
 
 ## Preliminaries
+------------------------------------------------------------------
+
+Installation library pip
+------------------------------------------------------------------
+
+To install the Python library and the command line utility, run::
+
+sudo apt-get install pip
+
+pip install tabulate
+
+------------------------------------------------------------------
+
+Installation library .jpeg
+------------------------------------------------------------------
+
+
+0. If you're in a hurry, try this:
+
+        $ tar xvfz Imaging-1.1.7.tar.gz
+        $ cd Imaging-1.1.7
+        $ python setup.py install
+
+   If you prefer to know what you're doing, read on.
+
+
+1. Prerequisites.
+
+   If you need any of the features described below, make sure you
+   have the necessary libraries before building PIL.
+
+   feature              library
+   -----------------------------------------------------------------
+   JPEG support         libjpeg (6a or 6b)
+
+                        http://www.ijg.org
+                        3http://www.ijg.org/files/jpegsrc.v6b.tar.gz
+                        ftp://ftp.uu.net/graphics/jpeg/
+------------------------------------------------------------------
 
 This and the next three homework assignments have to be completed
 using Python. Python is a very easy to learn and flexible programming
